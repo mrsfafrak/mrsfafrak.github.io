@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
     <meta charset="UTF-8">
-    <title>Tori Fafrak - Home </title>
+    <title>Tori Fafrak - Contact </title>
     <!-- css reset link -->
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
     <!-- bootstrap link -->
@@ -19,6 +20,7 @@
     <!-- Moment.js Reference -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
 </head>
+
 <body>
     <!-- Navigation bar -->
     <nav class="navbar sticky-top">
@@ -29,7 +31,7 @@
             <a href="index.html"> About</a>
             <span>|</span>
             <a href="portfolio.html">Portfolio</a>
-            <span >|</span>
+            <span>|</span>
             <a href="contact.html">Contact </a>
         </div>
     </nav>
@@ -37,18 +39,33 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>About</h1>
+                <h1>Contact</h1>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-3">
-                <img src="./assets/images/picture.png" alt="Profile_pic">
-            </div>
-            <div class="col-md-9">
-                <h3>profile content</h3>
+            <div class="col-md-12">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Name</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"
+                            placeholder="Enter Name"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Enter Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
+                            placeholder="Leave a message!"></textarea>
+                    </div>
+                    <button type="submit" class="btn btndetail">Submit</button>
+                </form>
             </div>
         </div>
     </div>
+
     <!-- footer -->
     <nav class="navbar fixed-bottom text-center">
         <span>Copyright © 2019</span>
@@ -65,4 +82,5 @@
     <!-- link to external js file -->
     <script src="./assets/javascript/app.js"></script>
 </body>
+
 </html>
